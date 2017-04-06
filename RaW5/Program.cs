@@ -8,7 +8,7 @@ namespace RaW5
 {
     class Program
     {
-        static int iteration = 0, NI = 50;
+        static int iteration = 0, NI = 80;
         static Semaphore e, r, w;
         static int nr, nw, dr , dw;
         static int NR = 3, NW = 2;
@@ -91,6 +91,7 @@ namespace RaW5
 
         static void ToWrite(object num)
         {
+            Random rnd = new Random();
             while (iteration < NI)
             {
                 if (verbose) Console.WriteLine("Writer {0} begins", num);
@@ -111,7 +112,7 @@ namespace RaW5
                 nw--;
                 signal();
                 if (verbose) Console.WriteLine("Writer {0} goes out", num);
-                Thread.Sleep(200);
+                Thread.Sleep(rnd.Next(50, 700));
             }//while
             Console.WriteLine("Writer {0} STOP", num);
             Console.WriteLine(iteration);
