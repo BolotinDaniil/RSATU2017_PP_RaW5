@@ -1,0 +1,6 @@
+C:\work\RSATU\8sem\ParProg\LR7\RaW\RaW5\RaW5\bin\Debug\RaW5.exe.config
+C:\work\RSATU\8sem\ParProg\LR7\RaW\RaW5\RaW5\bin\Debug\RaW5.exe
+C:\work\RSATU\8sem\ParProg\LR7\RaW\RaW5\RaW5\bin\Debug\RaW5.pdb
+C:\work\RSATU\8sem\ParProg\LR7\RaW\RaW5\RaW5\obj\Debug\RaW5.csprojResolveAssemblyReference.cache
+C:\work\RSATU\8sem\ParProg\LR7\RaW\RaW5\RaW5\obj\Debug\RaW5.exe
+C:\work\RSATU\8sem\ParProg\LR7\RaW\RaW5\RaW5\obj\Debug\RaW5.pdb
